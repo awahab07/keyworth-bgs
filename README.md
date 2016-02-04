@@ -5,27 +5,29 @@ A demo web map to visualize observations on map.
 This demo can be run by serving this directory over any web server and accessing on any modern web browser.
 
 ## Libraries and APIs used
-This demo is built using ArcGIS JavaScript API for GIS functionality, Dojo Toolkit for UI and widgets and LESS for 
-styling. 
+This demo is built using ArcGIS JavaScript API for GIS functionality, Dojo Toolkit for UI/Widgets and LESS for 
+styling/theme. 
+
+**Note: All Libraries and APIs are loaded from CDN, only custom module scripts are included in this demo
 
 ## Directory Structure
-root
-    |
-    data
-    |
-    images
-    |   |
-    |   icons
-    |   |
-    |   observations
-    |
-    scripts
-    |   |
-    |   keyworth
-    |   |   |
-    |   |   templates
-    |
-    styles
+root  
+    |  
+    data  
+    |  
+    images  
+    |   |  
+    |   icons  
+    |   |  
+    |   observations  
+    |  
+    scripts  
+    |   |  
+    |   keyworth  
+    |   |   |  
+    |   |   templates  
+    |  
+    styles  
     
  - root directory holds index.html where application starts and libraries are loaded.
  - data directory contains CSV files holding example records to represent observations.
@@ -34,7 +36,7 @@ root
  - scripts directory contains JS scripts that initialize the applications.
  - scripts/keyworth directory contains custom modules of this demo app.
  - scripts/keyworth/templates contain html templates of info popup windows for features.
- - styles directory less and css files to style the widgets and UI elements.
+ - styles directory contains less and css files to style the widgets and UI elements.
  
 ## Demo Flow
 This demo opens satellite imagery as base map in the map viewer and drawn four layers (Boreholes, Fossils, 
