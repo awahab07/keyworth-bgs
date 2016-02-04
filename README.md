@@ -39,11 +39,11 @@ root
  - styles directory contains less and css files to style the widgets and UI elements.
  
 ## Demo Flow
-This demo opens satellite imagery as base map in the map viewer and drawn four layers (Boreholes, Fossils, 
+This demo opens satellite imagery as base map in the map viewer and draws four feature layers (Boreholes, Fossils, 
 Rock Samples and Measurement) while centering the map at the Keyworth village, Nottinghamshire, England.
 
 Each layer has four features which are plotted on locations where observation were carried out. On the map these 
-features are represented by icons/markers. Clicking these marker opens up a popup window to show further information 
+features are represented by icons/markers. Clicking these markers opens up a popup window to show further information 
 about a particular observation.
 
 The map also has a search widget which user can use to search on the map by providing place name, address or post code etc.
