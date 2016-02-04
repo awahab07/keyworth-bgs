@@ -1,0 +1,102 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+/* imports */
+.map-container-mixin {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+#map {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.map .container {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+#info {
+  top: 2px;
+  color: #444;
+  height: auto;
+  font-family: arial sans-serif;
+  font-weight: bold;
+  left: 69px;
+  margin: 5px;
+  padding: 10px;
+  position: absolute;
+  width: 260px;
+  z-index: 40;
+  border: solid 1px #003300;
+  border-radius: 4px;
+  background-color: #E5E5E5;
+}
+#search {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 35px;
+  left: 74px;
+}
+/*Beginning of search box modifications*/
+.arcgisSearch .searchClear {
+  background-color: #FEFEFE;
+}
+.arcgisSearch .esriIconZoom {
+  background-image: url("finding.png");
+  background-size: 20px 20px;
+}
+.esriIconZoom:before {
+  content: "";
+}
+.arcgisSearch .searchGroup .searchInput,
+.arcgisSearch .searchBtn,
+.arcgisSearch .noResultsMenu,
+.arcgisSearch .suggestionsMenu {
+  border: 1px solid #003300;
+  background-color: #E5E5E5;
+}
+.arcgisSearch .noValueText {
+  color: red;
+  font-size: 14px;
+}
+.esriPopupWrapper {
+  /*Beginning of popup modifications*/
+}
+.esriPopupWrapper .esriPopup .titlePane {
+  background-color: #003300;
+  border-bottom: 1px solid #121310;
+  font-weight: bold;
+}
+.esriPopupWrapper .esriPopup a {
+  color: #DAE896;
+}
+.esriPopupWrapper .esriPopup .contentPane,
+.esriPopupWrapper .esriPopup .actionsPane,
+.esriPopupWrapper .esriPopup .pointer,
+.esriPopupWrapper .esriPopup .outerPointer {
+  background-color: #EEE;
+}
+.esriPopupWrapper .keyworth-attr-table .keyworth-attr-name {
+  font-style: oblique;
+}
+.esriPopupWrapper .keyworth-attr-table .main-attr {
+  color: rgba(13, 101, 9, 0.96);
+  font-weight: bold;
+}
+.esriPopupWrapper .keyworth-attr-table .lat-lng {
+  font-family: monospace;
+  font-weight: bold;
+}
+.esriPopupWrapper .keyworth-attr-table img {
+  width: 100%;
+}

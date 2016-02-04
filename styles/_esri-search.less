@@ -1,0 +1,47 @@
+#info {
+  top: 2px;
+  color: #444;
+  height: auto;
+  font-family: arial sans-serif;
+  font-weight: bold;
+  left: 69px;
+  margin: 5px;
+  padding: 10px;
+  position: absolute;
+  width: 260px;
+  z-index: 40;
+  border: solid 1px #003300;
+  border-radius: 4px;
+  background-color: #E5E5E5;
+}
+#search {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 35px;
+  left: 74px;
+}
+/*Beginning of search box modifications*/
+.arcgisSearch .searchClear {
+  background-color: #FEFEFE;
+}
+.arcgisSearch .esriIconZoom {
+  background-image: url("finding.png");
+  background-size: 20px 20px;
+}
+.esriIconZoom:before {
+  content: "";
+}
+.arcgisSearch .searchGroup .searchInput,
+.arcgisSearch .searchBtn,
+.arcgisSearch .noResultsMenu,
+.arcgisSearch .suggestionsMenu {
+  border: 1px solid #003300;
+  background-color: #E5E5E5;
+}
+.arcgisSearch {
+  .noValueText {
+    color: red;
+    font-size: 14px;
+  }
+}

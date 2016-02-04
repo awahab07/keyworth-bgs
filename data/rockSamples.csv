@@ -1,0 +1,5 @@
+name,type,latitude,longitude,z,date,time,recordedBy,rockName,image
+R1,Rock,52.870269,-1.110261,280,02/01/2012,8:30:00,Gary,Limestone,LIMESTONE1.jpg
+R2,Rock,52.884346,-1.105795,285,03/01/2012,12:05:00,Bob,Limestone,LIMESTONE2.jpg
+R3,Rock,52.882362,-1.114769,235,04/01/2012,13:02:00,Trevor,Sandstone,SANDSTONE1.jpg
+R4,Rock,52.867934,-1.096965,265,05/01/2012,15:21:00,Brian,Sandstone,SANDSTONE2.bmp

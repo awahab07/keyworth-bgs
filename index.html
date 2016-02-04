@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html dir="ltr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no" />
+        <title>Keyworth Observations</title>
+        <link rel="stylesheet" href="https://js.arcgis.com/3.15/dijit/themes/claro/claro.css">
+        <link rel="stylesheet" href="https://js.arcgis.com/3.15/esri/css/esri.css">
+
+        <link rel="stylesheet" href="styles/app.css">
+    </head>
+
+    <body>
+        <div id="search"></div>
+        <div id="map"></div>
+
+        <script type="text/javascript">
+            // Setting global dojoConfig, Dojo Loader will read this on initialization
+            var dojoConfig = {
+                parseOnLoad: true,
+                packages: [
+                    { name: "keyworth", location: "/scripts/keyworth" }
+                ]
+            };
+        </script>
+        <script type="text/javascript" src="https://js.arcgis.com/3.15/"></script>
+        <script type="text/javascript" src="scripts/app.js"></script>
+        <script type="text/javascript" src="scripts/map.js"></script>
+    </body>
+
+</html>
