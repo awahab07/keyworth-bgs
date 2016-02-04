@@ -16,16 +16,16 @@ root
     data  
     |  
     images  
-    |   |  
-    |   icons  
-    |   |  
-    |   observations  
+    |&nbsp;&nbsp;|  
+    |&nbsp;&nbsp;icons  
+    |&nbsp;&nbsp;|  
+    |&nbsp;&nbsp;observations  
     |  
     scripts  
-    |   |  
-    |   keyworth  
-    |   |   |  
-    |   |   templates  
+    |&nbsp;&nbsp;|  
+    |&nbsp;&nbsp;keyworth  
+    |&nbsp;&nbsp;|&nbsp;&nbsp;|  
+    |&nbsp;&nbsp;|&nbsp;&nbsp;templates  
     |  
     styles  
     
